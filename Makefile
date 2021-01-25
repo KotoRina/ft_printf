@@ -9,7 +9,7 @@ INCLUDES=./
 all:$(NAME)
 
 $(NAME):
-	@gcc -g3 -Wall -Wextra -Werror -I$(INCLUDES) -c $(SRC)
+	@gcc -Wall -Wextra -Werror -I$(INCLUDES) -c $(SRC)
 	@ar rc $(NAME) $(OBJS)
 	@ranlib $(NAME)
 
