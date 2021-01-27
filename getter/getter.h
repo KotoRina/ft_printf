@@ -6,7 +6,7 @@
 /*   By: rin <rin@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/26 01:28:32 by rin               #+#    #+#             */
-/*   Updated: 2021/01/26 01:28:47 by rin              ###   ########.fr       */
+/*   Updated: 2021/01/27 18:06:14 by rin              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,13 +22,13 @@
 
 # define MIN -2147483648
 
-void				get_char(t_setting *finfo);
-void				get_string(t_setting *finfo);
-void				get_int(t_setting *finfo);
-void				get_unsi(t_setting *finfo);
-void				get_hexa(t_setting *finfo);
-void				get_prec(t_setting *finfo);
-void				get_point(t_setting *finfo);
+void				get_char(t_setting *set);
+void				get_string(t_setting *set);
+void				get_int(t_setting *set);
+void				get_unsi(t_setting *set);
+void				get_hexa(t_setting *set);
+void				get_prec(t_setting *set);
+void				get_point(t_setting *set);
 
 # if __APPLE__
 #  define IS_MACOS 1

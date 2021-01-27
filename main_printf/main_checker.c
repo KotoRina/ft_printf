@@ -6,7 +6,7 @@
 /*   By: rin <rin@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/26 01:29:29 by rin               #+#    #+#             */
-/*   Updated: 2021/01/26 01:29:29 by rin              ###   ########.fr       */
+/*   Updated: 2021/01/26 12:54:22 by rin              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	main_check_flag(int strlen, char *str, t_setting *set)
 		set->width = 0;
 	if (set->width <= 1 && (set->type == 2 || set->type == 3))
 		set->width = 0;
-	if ((set->flag_zero == 1 && set->type == 2) 
+	if ((set->flag_zero == 1 && set->type == 2)
 	|| (set->flag_zero == 1 && set->flag_minus == 1 && set->type == 3))
 		set->flag_zero = 0;
 }

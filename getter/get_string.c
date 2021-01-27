@@ -6,7 +6,7 @@
 /*   By: rin <rin@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/26 01:28:18 by rin               #+#    #+#             */
-/*   Updated: 2021/01/26 01:28:19 by rin              ###   ########.fr       */
+/*   Updated: 2021/01/27 17:55:39 by rin              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void			get_string(t_setting *set)
 	str = va_arg(set->ap, char *);
 	if (!str)
 	{
-		str = "(nil)";
+		str = "(null)";
 		if (!IS_MACOS && set->prec < 6 && set->prec >= 0)
 			str = "";
 	}

@@ -6,11 +6,11 @@
 /*   By: rin <rin@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/25 17:38:15 by rin               #+#    #+#             */
-/*   Updated: 2021/01/26 01:33:14 by rin              ###   ########.fr       */
+/*   Updated: 2021/01/26 12:54:43 by rin              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# ifndef TYPES_H
+#ifndef TYPES_H
 # define TYPES_H
 
 # include <stdarg.h>

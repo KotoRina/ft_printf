@@ -6,7 +6,7 @@
 /*   By: rin <rin@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/25 17:43:40 by rin               #+#    #+#             */
-/*   Updated: 2021/01/25 17:54:35 by rin              ###   ########.fr       */
+/*   Updated: 2021/01/27 17:52:45 by rin              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ int	ft_printf(const char *format, ...)
 
 	if (!format)
 		return (-1);
+	all_write = 0;
 	set = (t_setting *)ft_malloc(sizeof(t_setting));
 	va_start(set->ap, format);
 	set->format_inp = format;

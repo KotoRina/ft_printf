@@ -6,11 +6,11 @@
 /*   By: rin <rin@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/26 01:19:43 by rin               #+#    #+#             */
-/*   Updated: 2021/01/26 01:19:51 by rin              ###   ########.fr       */
+/*   Updated: 2021/01/26 12:52:38 by rin              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "lib.h"
+#include "lib.h"
 
 char			*ft_ultoa_hex(unsigned int n, t_setting *set)
 {
